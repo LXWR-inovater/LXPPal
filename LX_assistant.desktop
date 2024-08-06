@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=LX assistant
+Comment=Use the LXM model!
+Exec=/home/password-is-513720lx/AI.sh
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Utility;
+
