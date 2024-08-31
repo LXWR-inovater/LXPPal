@@ -66,13 +66,18 @@ first. try using apt (or whatever your package manager is) with python3-xyz, whe
 Then you may have to create a vurtual envirorment and run the LXM0.2.py script in there. 
 Run this command to create a vurtual enviorment:
 
-    python -m venv /path/to/new/virtual/environment
+    python3 -m venv /path/to/new/virtual/environment
 
 Replace "path/to/new/vurtual/environment" with the location on your hard drive you'd like to put it in.
+Now, run 
+
+    source path/to/new/vurtual/enviroment/bin/activate
+
+To enter the new vurtual enviroment. If no errors show up, then lets move on!
 You may have to run it with sudo (sudo python -m venv /path/to/new/virtual/environment), where it'll ask for your password first.
 Once you've done that, go ahead and install your dependencies. It should now work as intended. Now, in the LXM.sh file, place this command: 
 
-    soruce myenv/bin/activate
+    source path/to/new/vurtual/enviroment/bin/activate
 
 into the 5th line of text. It should look like this when finished:
 
