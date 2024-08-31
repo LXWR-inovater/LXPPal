@@ -23,7 +23,7 @@ def on_activate(app):
     win = Gtk.ApplicationWindow(application=app)
     win.set_title("LX's Help!")
     win.set_default_size(300, 300)
-    win.set_resizable(False)
+    win.set_resizable(True)
     win.set_size_request(300, 300)
     vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
     hbox = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=6)
@@ -45,4 +45,3 @@ def on_activate(app):
 app = Gtk.Application(application_id='org.gtk.lxhelp')
 app.connect('activate', on_activate)
 app.run(None)
-
