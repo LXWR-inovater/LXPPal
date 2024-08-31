@@ -58,10 +58,10 @@ If , when you go to install the dependencies (e.g, you run "pip install wikipied
 
 first. try using apt (or whatever your package manager is) with python3-xyz, where xyz is the dependencie(s) you want to install. If that gives you something like this:
 
-   Reading package lists... Done
-   Building dependency tree... Done
-   Reading state information... Done
-   E: Unable to locate package python3-xyz
+    Reading package lists... Done
+    Building dependency tree... Done
+    Reading state information... Done
+    E: Unable to locate package python3-xyz
 
 Then you may have to create a vurtual envirorment and run the LXM0.2.py script in there. 
 Run this command to create a vurtual enviorment:
