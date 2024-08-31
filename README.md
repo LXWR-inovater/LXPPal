@@ -6,7 +6,7 @@ inside the file (text editor), replace "Your-home-folder-name-here" with the nam
 And put the other files in the home folder.
 
 Finally, make the command "LXM.sh" go on autostart.
-Dependencies: python3, python3-gi, python3-socket, python3-webbrowser, python3-subprocess,python3-threading, python3-difflib, bs4-beautifulsoup, googlesearch ---- if you are using the latest version of LX OS 3.0, you shouldn't have to install any of the dependincies shown execpt in bold.
+Dependencies: python3, gi, socket, webbrowser, subprocess,threading, difflib, bs4-beautifulsoup, googlesearch-python, wikipedia-api ---- if you are using the latest version of LX OS 3.0, you shouldn't have to install any of the dependincies shown execpt in bold.
 
 # But it didn't work!
 -
