@@ -35,10 +35,10 @@ This will make both of them work at the same time.
 
 If , when you go to install the dependencies (e.g, you run "pip install wikipiedia-api") you get something like this:
 
-error: externally-managed-environment
+    error: externally-managed-environment
 
-× This environment is externally managed
-╰─> To install Python packages system-wide, try apt install
+    × This environment is externally managed
+    ╰─> To install Python packages system-wide, try apt install
     python3-xyz, where xyz is the package you are trying to
     install.
     
@@ -53,8 +53,8 @@ error: externally-managed-environment
     
     See /usr/share/doc/python3.12/README.venv for more information.
 
-note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
-hint: See PEP 668 for the detailed specification.
+   note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+   hint: See PEP 668 for the detailed specification.
 
 first. try using apt (or whatever your package manager is) with python3-xyz, where xyz is the dependencie(s) you want to install. If that gives you something like this:
 
